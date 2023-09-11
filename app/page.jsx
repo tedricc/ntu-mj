@@ -1,4 +1,5 @@
 import Nav from "@/components/Nav/Nav";
+import HomeLanding from "@/app/home-components/HomeLanding";
 
 export default function Home() {
   return (
@@ -6,9 +7,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <Nav />
-          <div>
-            this is the home page
-          </div>
+          <HomeLanding />
         </div>
       </div>
     </>
