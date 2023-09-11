@@ -2,7 +2,7 @@ import styles from "@/app/about/about-components/AboutLanding.module.css";
 
 function AboutLanding() {
   return (
-    <div className={styles.home__landing}>
+    <div className={styles.landing}>
       <h1 className={styles.title}>About NTU MJ</h1>
       <div>
         NTU MJ Hip Hop Dance Club, also known as MJ, is one of the few pioneer
