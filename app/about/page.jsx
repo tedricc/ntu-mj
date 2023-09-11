@@ -1,13 +1,12 @@
 import Nav from "@/components/Nav/Nav";
+import HomeLanding from "@/app/about/about-components/AboutLanding";
 
 function page() {
   return (
     <div className="container">
       <div className="row">
         <Nav />
-        <div>
-            this is the about page
-        </div>
+        <HomeLanding />
       </div>
     </div>
   );

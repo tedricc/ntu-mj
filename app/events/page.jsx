@@ -1,13 +1,12 @@
 import Nav from "@/components/Nav/Nav";
+import EventsLanding from "@/app/events/events-components/EventsLanding";
 
 function page() {
   return (
     <div className="container">
       <div className="row">
         <Nav />
-        <div>
-            this is the events page
-        </div>
+        <EventsLanding />
       </div>
     </div>
   );
