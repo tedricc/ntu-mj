@@ -1,14 +1,14 @@
 import Nav from "@/components/Nav/Nav";
 import EventsLanding from "@/app/events/events-components/EventsLanding";
+import Footer from "@/components/Footer/Footer";
 
 function page() {
   return (
-    <div className="container">
-      <div className="row">
-        <Nav />
-        <EventsLanding />
-      </div>
-    </div>
+    <>
+      <Nav />
+      <EventsLanding />
+      <Footer />
+    </>
   );
 }
 

@@ -1,18 +1,25 @@
+:root {
+  --primary-color: #403f83;
+  --primary-color-rgb: 64, 63, 131;
+  --secondary-color: #8364e2;
+  --secondary-color-rgb: 131, 100, 226;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #000;
 }
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 .container {
-  padding: 20px;
+  padding: 16px;
 }
 
 .row {
