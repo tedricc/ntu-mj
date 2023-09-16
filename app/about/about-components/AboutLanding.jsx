@@ -1,4 +1,10 @@
 import styles from "@/app/about/about-components/AboutLanding.module.css";
+import Comm from "@/components/ui/Comm";
+import Rachel from "@/public/rachel-placeholder.jpg";
+import Angela from "@/public/angela-placeholder.jpg";
+import Cels from "@/public/cels-placeholder.jpg";
+import Karthik from "@/public/karthik-placeholder.jpg";
+import Jayne from "@/public/jayne-placeholder.jpg";
 
 function AboutLanding() {
   return (
@@ -20,6 +26,24 @@ function AboutLanding() {
         discipline are traits they take along with them through life. They
         believe strongly that dance has a great power to nurture, inspire and
         change lives, and they do just that, one dance at a time.
+      </div>
+
+      <div className={styles.comm}>
+        <h2 className={styles.comm__title}>Meet the AY 23/24 committee!</h2>
+
+        <div className={styles.comm__list}>
+          <Comm pic={Rachel} name="Rachel" title="President" />
+          <Comm name="Kai Ting" title="Vice-President" />
+          <Comm pic={Angela} name="Angela" title="Dance Captain" />
+          <Comm pic={Cels} name="Cels" title="Dance Captain" />
+          <Comm className={styles.member} name="Cutural" title="Secretary" />
+          <Comm className={styles.member} name="Kent" title="Treasurer" />
+          <Comm pic={Karthik} name="Karthik" title="Liaison" />
+          <Comm className={styles.member} name="Tiffany" title="Logistics" />
+          <Comm className={styles.member} name="Claudia" title="Welfare" />
+          <Comm pic={Jayne} name="Jayne" title="Publicity " />
+          <Comm className={styles.member} name="Xue Ying" title="Publicity " />
+        </div>
       </div>
     </div>
   );

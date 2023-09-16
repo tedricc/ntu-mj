@@ -4,31 +4,17 @@
   justify-content: space-between;
 }
 
-/* .logo__wrapper {
-}
-
 .nav__logo {
+  transform: scale(1.1);
 }
 
-.link__wrapper {
-} */
+/* .link__wrapper {
+}  */
 
 .nav__link {
   margin-right: 16px;
 }
 
-.nav__logo:last-child {
+.nav__link:last-child {
   margin-right: 0px;
-}
-
-.contact {
-  border-radius: 8px;
-  padding: 8px 24px;
-  background-color: #8364e2;
-  color: #fff;
-  transition: all 300ms ease;
-}
-
-.contact:hover {
-  background-color: #403f83;
 }

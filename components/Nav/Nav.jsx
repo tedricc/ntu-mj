@@ -32,13 +32,6 @@ function Nav() {
               Events
             </Link>
           </div>
-
-          <Link
-            href="https://www.instagram.com/ntumj/"
-            className={styles.contact}
-          >
-            Contact us
-          </Link>
         </div>
       </div>
     </div>

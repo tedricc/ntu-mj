@@ -7,3 +7,16 @@
   font-weight: 700;
   text-align: center;
 }
+
+.comm {
+  margin-top: 24px;
+}
+
+.comm__title {
+  text-align: center;
+}
+
+.comm__list {
+  display: flex;
+  flex-wrap: wrap;
+}
