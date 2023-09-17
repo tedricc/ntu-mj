@@ -8,16 +8,18 @@ function Nav() {
     <div className="container">
       <div className="row">
         <div className={styles.nav}>
-          <figure className={styles.logo__wrapper}>
-            <Image
-              src={Logo}
-              width={48}
-              height={48}
-              alt="MJ Logo"
-              className={styles.logo}
-              priority
-            />
-          </figure>
+          <Link href="/">
+            <figure className={styles.logo__wrapper}>
+              <Image
+                src={Logo}
+                width={48}
+                height={48}
+                alt="MJ Logo"
+                className={styles.logo}
+                priority
+              />
+            </figure>
+          </Link>
 
           <div className={styles.link__wrapper}>
             <Link href="/" className={styles.link}>
