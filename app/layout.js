@@ -1,7 +1,30 @@
 import "./globals.css";
-import { Roboto } from "next/font/google";
+import localFont from "next/font/local";
 
-const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const futura = localFont({
+  src: [
+    {
+      path: "../public/futura-book.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/futura-book-italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../public/futura-bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/futura-bold-italic.ttf",
+      weight: "700",
+      style: "italic",
+    },
+  ],
+});
 
 export const metadata = {
   title: "NTU MJ",
@@ -11,7 +34,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={futura.className}>{children}</body>
     </html>
   );
 }

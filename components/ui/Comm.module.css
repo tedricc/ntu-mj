@@ -1,8 +1,8 @@
-.comm {
+.comm__container {
   width: 50%;
 }
 
-.comm__container {
+.comm {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -11,12 +11,29 @@
   align-items: center;
 }
 
-.pic__wrapper {
+.img__wrapper {
   margin-right: 20px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.pic {
+.img {
   transform: scale(1.1);
+}
+
+.comm__name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.comm__title {
+  font-size: 16px;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .comm__container {
+    width: 100%;
+  }
 }

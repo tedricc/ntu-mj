@@ -29,19 +29,19 @@ function AboutLanding() {
       </div>
 
       <div className={styles.comm}>
-        <h2 className={styles.comm__title}>Meet the AY 23/24 committee!</h2>
+        <h2 className={styles.comm__title}>AY 23/24 Committee</h2>
 
         <div className={styles.comm__list}>
-          <Comm pic={Rachel} name="Rachel" title="President" />
+          <Comm img={Rachel} name="Rachel" title="President" />
           <Comm name="Kai Ting" title="Vice-President" />
-          <Comm pic={Angela} name="Angela" title="Dance Captain" />
-          <Comm pic={Cels} name="Cels" title="Dance Captain" />
+          <Comm img={Angela} name="Angela" title="Dance Captain" />
+          <Comm img={Cels} name="Cels" title="Dance Captain" />
           <Comm className={styles.member} name="Cutural" title="Secretary" />
           <Comm className={styles.member} name="Kent" title="Treasurer" />
-          <Comm pic={Karthik} name="Karthik" title="Liaison" />
+          <Comm img={Karthik} name="Karthik" title="Liaison" />
           <Comm className={styles.member} name="Tiffany" title="Logistics" />
           <Comm className={styles.member} name="Claudia" title="Welfare" />
-          <Comm pic={Jayne} name="Jayne" title="Publicity " />
+          <Comm img={Jayne} name="Jayne" title="Publicity " />
           <Comm className={styles.member} name="Xue Ying" title="Publicity " />
         </div>
       </div>

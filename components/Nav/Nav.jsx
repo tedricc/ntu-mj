@@ -14,22 +14,26 @@ function Nav() {
               width={48}
               height={48}
               alt="MJ Logo"
-              className={styles.nav__logo}
+              className={styles.logo}
               priority
             />
           </figure>
 
           <div className={styles.link__wrapper}>
-            <Link href="/" className={styles.nav__link}>
+            <Link href="/" className={styles.link}>
               Home
             </Link>
 
-            <Link href="/about" className={styles.nav__link}>
+            <Link href="/about" className={styles.link}>
               About
             </Link>
 
-            <Link href="/events" className={styles.nav__link}>
+            <Link href="/events" className={styles.link}>
               Events
+            </Link>
+
+            <Link href="/alumni" className={styles.link}>
+              Alumni
             </Link>
           </div>
         </div>

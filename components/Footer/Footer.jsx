@@ -14,7 +14,7 @@ function Footer() {
               width={48}
               height={48}
               alt="MJ Logo"
-              className={styles.nav__logo}
+              className={styles.logo}
               priority
             />
           </figure>
