@@ -28,7 +28,8 @@ const futura = localFont({
 
 export const metadata = {
   title: "NTU MJ",
-  description: "Welcome to NTU MJ",
+  description:
+    "Welcome to MJ, NTU's premier dance society. We are a group of dancers who love dance! Learn more about MJ, its members, and events here.",
 };
 
 export default function RootLayout({ children }) {

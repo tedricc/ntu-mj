@@ -4,10 +4,6 @@
   justify-content: space-between;
 }
 
-.logo {
-  transform: scale(1.1);
-}
-
 .link {
   margin-right: 16px;
   position: relative;

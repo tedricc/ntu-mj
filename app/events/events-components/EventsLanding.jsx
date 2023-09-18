@@ -1,19 +1,28 @@
 import styles from "@/app/events/events-components/EventsLanding.module.css";
+import Image from "next/image";
 
-function AboutLanding() {
+function EventsLanding({ title, text, backgroundImage }) {
+  // const style = {
+  //   backgroundImage: `linear-gradient(
+  //     to bottom,
+  //     rgba(0, 0, 0, 0.6),
+  //     rgba(0, 0, 0, 0)
+  //   ), url(${backgroundImage})`,
+  // };
+
   return (
     <div className={styles.landing}>
-      <h1 className={styles.title}>Dancetitude 2023</h1>
-      <div className={styles.text}>
-        DANCETITUDE 2023: FAMILIAR STRANGERS is a culmination of the past,
-        present and future, highlighting the struggles, slumps and breakthroughs
-        members face through their journey of finding what dance means to them.
-        Centered around the concept of unfolding oneself, join us as we
-        reminisce on what was, celebrate what is, and look forward to what will
-        be of MJ.
-      </div>
+      {/* <Image
+        src={backgroundImage}
+        width={"100%"}
+        height={"100%"}
+        className={styles.img}
+        alt={title}
+      /> */}
+      <h1 className={styles.title}>{title}</h1>
+      <div className={styles.text}>{text}</div>
     </div>
   );
 }
 
-export default AboutLanding;
+export default EventsLanding;

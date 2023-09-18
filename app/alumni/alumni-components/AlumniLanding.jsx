@@ -7,7 +7,7 @@ function AlumniLanding() {
     <div className={styles.landing}>
       <h1>Our Favourite Alumni</h1>
       <figure className={styles.img__wrapper}>
-        <Image src={Alumni} className={styles.img} />
+        <Image src={Alumni} className={styles.img} alt="Jaime"/>
       </figure>
     </div>
   );
