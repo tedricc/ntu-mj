@@ -20,6 +20,7 @@ function EventsLanding({ title, text, backgroundImage }) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
+      viewport={{ once: true }}
     >
       <div className={styles.description}>
         <h1 className={styles.title}>{title}</h1>
