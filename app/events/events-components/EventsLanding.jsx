@@ -2,16 +2,16 @@ import styles from "@/app/events/events-components/EventsLanding.module.css";
 import Image from "next/image";
 
 function EventsLanding({ title, text, backgroundImage }) {
-  // const style = {
-  //   backgroundImage: `linear-gradient(
-  //     to bottom,
-  //     rgba(0, 0, 0, 0.6),
-  //     rgba(0, 0, 0, 0)
-  //   ), url(${backgroundImage})`,
-  // };
+  const style = {
+    backgroundImage: `linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0)
+    ), url(${backgroundImage})`,
+  };
 
   return (
-    <div className={styles.landing}>
+    <div className={styles.landing} style={style}>
       {/* <Image
         src={backgroundImage}
         width={"100%"}
