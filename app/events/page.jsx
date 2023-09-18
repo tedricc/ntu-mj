@@ -70,7 +70,7 @@ function page() {
       <EventsLanding
         title={"ACT 4: Our Connections | Me to We"}
         backgroundImage={
-          "https://github.com/tedricc/ntu-mj/blob/main/public/alumni-dtt.jpg?raw=true"
+          "https://github.com/tedricc/ntu-mj/blob/main/public/meow-dtt.jpg?raw=true"
         }
       />
       <EventsLanding

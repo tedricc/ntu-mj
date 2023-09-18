@@ -1,4 +1,7 @@
+"use client";
+
 import styles from "@/app/events/events-components/EventsLanding.module.css";
+import { motion } from "framer-motion";
 
 function EventsLanding({ title, text, backgroundImage }) {
   const style = {
@@ -11,12 +14,18 @@ function EventsLanding({ title, text, backgroundImage }) {
   };
 
   return (
-    <div className={styles.landing} style={style}>
+    <motion.div
+      className={styles.landing}
+      style={style}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <div className={styles.description}>
         <h1 className={styles.title}>{title}</h1>
         <div className={styles.text}>{text}</div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
