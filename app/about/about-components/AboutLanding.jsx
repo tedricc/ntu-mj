@@ -10,7 +10,7 @@ function AboutLanding() {
   return (
     <div className={styles.landing}>
       <h1 className={styles.title}>About NTU MJ</h1>
-      <div>
+      <div className={styles.text}>
         NTU MJ Hip Hop Dance Club, also known as MJ, is one of Singapore's
         pioneer dance societies. The club's name originated from their previous
         direction of Modern Jazz. Over the years and evolution of their members,

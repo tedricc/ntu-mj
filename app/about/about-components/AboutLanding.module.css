@@ -8,6 +8,15 @@
   text-align: center;
 }
 
+.text {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
 .comm {
   margin-top: 24px;
 }
