@@ -1,8 +1,12 @@
 :root {
-  --primary-color: #403f83;
-  --primary-color-rgb: 64, 63, 131;
-  --secondary-color: #8364e2;
-  --secondary-color-rgb: 131, 100, 226;
+  --primary-white: #f9f4f4;
+  --primary-black: #0c0c0f;
+  --primary-black-rgb: rgb(12, 12, 12);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--primary-white);
 }
 
 *,
@@ -11,7 +15,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #000;
+  color: #0c0c0f;
 }
 
 a {
