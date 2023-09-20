@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Comm({ img, name, title }) {
   return (
     <motion.div
-      initial={{ opacity: 0, x: "20vw" }}
+      initial={{ opacity: 0, x: 200 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.7 }}
       className={styles.comm__container}
