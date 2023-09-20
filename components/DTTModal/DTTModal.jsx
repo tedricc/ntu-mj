@@ -5,15 +5,6 @@ import { motion } from "framer-motion";
 import { FaTimes } from "react-icons/fa";
 
 function DTTModal({ toggleModal, modalTitle, modalVideo }) {
-  const itemVariants = {
-    open: {
-      opacity: 1,
-      y: 0,
-      transition: { type: "spring", stiffness: 300, damping: 24 },
-    },
-    closed: { opacity: 0, y: 20, transition: { duration: 0.2 } },
-  };
-
   function preventClick(event) {
     event.stopPropagation();
   }

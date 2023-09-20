@@ -16,7 +16,7 @@ export default function Home() {
         video={"/performances.mp4"}
         title={"Performances"}
       /> */}
-      <HomeLanding
+      {/* <HomeLanding
         poster={"/home-poster.jpg"}
         video={"/cp.mp4"}
         title={"Choreography Projects"}
@@ -25,7 +25,7 @@ export default function Home() {
         poster={"/home-poster.jpg"}
         video={"/battle.mp4"}
         title={"Battles"}
-      />
+      /> */}
       <Footer />
     </>
   );
