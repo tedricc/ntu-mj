@@ -11,11 +11,11 @@ export default function Home() {
         video={"/home-video.mp4"}
         title={"We are MJ"}
       />
-      <HomeLanding
+      {/* <HomeLanding
         poster={"/home-poster.jpg"}
         video={"/performances.mp4"}
         title={"Performances"}
-      />
+      /> */}
       <HomeLanding
         poster={"/home-poster.jpg"}
         video={"/cp.mp4"}
