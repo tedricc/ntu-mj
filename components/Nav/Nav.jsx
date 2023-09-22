@@ -8,7 +8,7 @@ function Nav() {
     <div className="container">
       <div className="row">
         <div className={styles.nav}>
-          <Link href="/">
+          <Link href="/" className={styles.home}>
             <figure className={styles.logo__wrapper}>
               <Image
                 src={Logo}
@@ -19,6 +19,7 @@ function Nav() {
                 priority
               />
             </figure>
+            <div className={styles.title}>NTU MJ</div>
           </Link>
 
           <div className={styles.link__wrapper}>

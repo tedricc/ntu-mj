@@ -1,12 +1,13 @@
 :root {
   --primary-white: #f9f4f4;
   --primary-black: #0c0c0f;
+  --primary-brown: #362828;
   --primary-black-rgb: rgb(12, 12, 12);
 }
 
 body {
   overflow-x: hidden;
-  background-color: var(--primary-white);
+  background-color: #0c0c0f;
 }
 
 *,
@@ -15,7 +16,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #0c0c0f;
+  color: var(--primary-white);
 }
 
 a {

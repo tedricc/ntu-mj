@@ -60,7 +60,7 @@ function page() {
         hasModal={false}
       />
       <EventsLanding
-        title={"PRELUDE: OUR STORY"}
+        title={"PRELUDE: Our Story"}
         backgroundImage={Alumni}
         toggleModal={toggleModal}
         hasModal={true}

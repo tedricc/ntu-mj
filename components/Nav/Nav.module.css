@@ -5,6 +5,20 @@
   height: 52px;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.logo__wrapper {
+  margin-right: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .link {
   margin-right: 16px;
   position: relative;

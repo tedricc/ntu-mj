@@ -24,9 +24,6 @@ function DTTModal({ toggleModal, modalTitle, modalVideo }) {
           animate={{ scale: 1 }}
           transition={{
             duration: 0.2,
-            type: "spring",
-            damping: 25,
-            stiffness: 500,
           }}
         >
           <div className={styles.close__btn} onClick={toggleModal}>
