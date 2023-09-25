@@ -16,7 +16,8 @@
 
 .title {
   font-size: 24px;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-style: italic;
 }
 
 .link {
@@ -45,7 +46,7 @@
 }
 
 @media (max-width: 768px) {
-  .nav__link:last-child {
+  .link {
     display: none;
   }
 }

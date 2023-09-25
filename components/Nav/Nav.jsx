@@ -39,6 +39,8 @@ function Nav() {
               Alumni
             </Link>
           </div>
+
+          {/* add ur burger here + other stuff */}
         </div>
       </div>
     </div>
