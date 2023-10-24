@@ -47,7 +47,7 @@ function AboutLanding() {
               <Comm
                 img={Angela}
                 name="Angela"
-                description="HII i'm angela! one of the dance captains for MJ this year✨ currently a year 4 studying ECPS🫠 yeaAaa i've honestly enjoyed my time in MJ over the past few yrs, be it the friends i've made or the opportunities i've been given to explore my craft. i rly hope that MJ will be a place that ppl will want to come back to (aww), whr we can be open to diff experiences and also people hehe SEE YALL IN CLASS"
+                description="HII i'm angela! one of the dance captains for MJ this year✨ currently a year 4 studying ECPS yeaAaa i've honestly enjoyed my time in MJ over the past few yrs, be it the friends i've made or the opportunities i've been given to explore my craft. i rly hope that MJ will be a place that ppl will want to come back to (aww), whr we can be open to diff experiences and also people hehe SEE YALL IN CLASS"
               />
               <Comm
                 img={Cels}
