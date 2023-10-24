@@ -3,8 +3,15 @@
 import styles from "@/components/ui/Comm/Comm.module.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
-function Comm({ img, name, title }) {
+function Comm({ img, name, description }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -13,12 +20,12 @@ function Comm({ img, name, title }) {
       className={styles.comm__container}
     >
       <div className={styles.comm}>
-        <figure className={styles.img__wrapper}>
+        <figure className={styles.img__wrapper} onClick={toggle}>
           {img ? (
             <Image
               src={img}
-              width={100}
-              height={100}
+              width={400}
+              height={400}
               className={styles.img}
               alt={name}
             />
@@ -27,9 +34,8 @@ function Comm({ img, name, title }) {
           )}
         </figure>
 
-        <div className="description">
-          <div className={styles.comm__name}>{name}</div>
-          <div className={styles.comm__title}>{title}</div>
+        <div className={isOpen ? styles.open : styles.collapse}>
+          {description}
         </div>
       </div>
     </motion.div>

@@ -4,22 +4,22 @@ import localFont from "next/font/local";
 const futura = localFont({
   src: [
     {
-      path: "../public/futura-book.ttf",
+      path: "../public/fonts/futura-book.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/futura-book-italic.ttf",
+      path: "../public/fonts/futura-book-italic.ttf",
       weight: "400",
       style: "italic",
     },
     {
-      path: "../public/futura-bold.ttf",
+      path: "../public/fonts/futura-bold.ttf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../public/futura-bold-italic.ttf",
+      path: "../public/fonts/futura-bold-italic.ttf",
       weight: "700",
       style: "italic",
     },
