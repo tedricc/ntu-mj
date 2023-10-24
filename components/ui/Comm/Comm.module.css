@@ -23,7 +23,7 @@
 .img {
   object-fit: cover;
   transform: scale(1.1);
-  transition: all 300ms ease;
+  transition: all 350ms ease;
 }
 
 .img:hover {
@@ -37,13 +37,19 @@
 
 .collapse {
   opacity: 0;
-  height: 0;
-  transition: all 0.35s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 350ms ease, opacity 350ms ease;
 }
 
-.show {
+.open {
   opacity: 1;
+  max-height: 200px;
+  overflow: visible;
   margin-top: 8px;
-  height: 90px !important;
-  transition: all 0.35s ease;
+  transition: max-height 350ms ease, opacity 350ms ease;
+}
+
+.description {
+  margin: 16px 0px;
 }

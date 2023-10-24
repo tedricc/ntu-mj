@@ -35,7 +35,7 @@ function Comm({ img, name, description }) {
         </figure>
 
         <div className={isOpen ? styles.open : styles.collapse}>
-          {description}
+          <div className={styles.description}>{description}</div>
         </div>
       </div>
     </motion.div>

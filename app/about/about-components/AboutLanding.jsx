@@ -19,21 +19,15 @@ function AboutLanding() {
         <div className={styles.landing}>
           <h1 className={styles.title}>About NTU MJ</h1>
           <div className={styles.text}>
-            NTU MJ Hip Hop Dance Club, also known as MJ, is one of Singapore's
-            pioneer dance societies. The club's name originated from their
-            previous direction of Modern Jazz. Over the years and evolution of
-            their members, they have adopted Hip Hop as their primary dance
-            genre. In respecting the club's tradition and rich history, they
-            have kept their unique name to remind their members of their roots.
-            These days, the club is known more affectionately in the Singapore
-            dance scene as MJ. Dedicated to being a family, they strive to
-            unite, love, and embrace one another despite differences, retaining
-            diversity and uniqueness among members. Despite being managed
-            entirely by the students, they aim to balance their studies while
-            keeping their passion for dance burning. In pursuit of excellence,
-            their humility and discipline are traits they exemplify in life.
-            They believe that dance has a great power to nurture, inspire, and
-            change lives, and they do just that, one count at a time.
+            MJ is one of Singapore's pioneer dance societies. The club's name
+            originated from their previous direction of Modern Jazz. Dedicated
+            to being a family, they strive to unite, love, and embrace one
+            another despite differences, retaining diversity and uniqueness
+            among members. Despite being managed entirely by the students, they
+            aim to balance their studies while keeping their passion for dance
+            burning. They believe that dance has a great power to nurture,
+            inspire, and change lives, and they do just that, one count at a
+            time.
           </div>
 
           <div className={styles.comm}>
@@ -88,7 +82,7 @@ function AboutLanding() {
               <Comm
                 img={Jayne}
                 name="Jayne"
-                description="Hey guys! My name is Jayne! 1/2 of the publicity team with Xue Ying 👍🏻 I'm a year 2 ADM student this year 😩🙏🏻 Dance has been a hugeee part of my tertiary life and a big reason I wanted to go to uni was so I could continue dancing and avoid adulting… 🥸 HAHAHA and thus far MJ has given me amazing opportunities that has not only fed my itchy dance bones but it also allowed me to connect with a new community and experience my first live performance at DTT 23! 🤩 I hope your MJ year will be a fulfilling one for you as it has been for me thus far ❤️ stay groovy peng yous, lets dancey together 👊🏻"
+                description="Hey guys! My name is Jayne! 1/2 of the publicity team with Xue Ying 👍🏻 I'm a year 2 ADM student this year 😩🙏🏻 Dance has been a hugeee part of my tertiary life and a big reason I wanted to go to uni was so I could continue dancing and avoid adulting… HAHAHA and thus far MJ has given me amazing opportunities that has not only fed my itchy dance bones but it also allowed me to connect with a new community and experience my first live performance at DTT 23! 🤩 I hope your MJ year will be a fulfilling one for you as it has been for me thus far ❤️ stay groovy peng yous, lets dancey together 👊🏻"
               />
               <Comm
                 img={XueYing}
