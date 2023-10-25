@@ -3,16 +3,18 @@
 }
 
 .title {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
   text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
 }
 
 .text {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: justify;
 }
@@ -22,7 +24,11 @@
 }
 
 .comm__title {
+  font-size: 24px;
+  font-weight: 500;
   text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
 }
 
 .comm__list {
