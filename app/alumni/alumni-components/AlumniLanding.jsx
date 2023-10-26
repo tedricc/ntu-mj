@@ -1,14 +1,13 @@
 import styles from "@/app/alumni/alumni-components/AlumniLanding.module.css";
-import Image from "next/image";
-import Alumni from "@/public/alumni-placeholder.png";
 
 function AlumniLanding() {
   return (
     <div className={styles.landing}>
-      <h1>Our Favourite Alumni</h1>
-      <figure className={styles.img__wrapper}>
-        <Image src={Alumni} className={styles.img} alt="Jaime"/>
-      </figure>
+      <h1 className={styles.title}>MJ Laolumni</h1>
+      <div className={styles.placeholder}>
+        <div className={styles.placeholder__text}></div>
+        This page is still under development, please check again soon!
+      </div>
     </div>
   );
 }
