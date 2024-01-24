@@ -1,8 +1,16 @@
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 52px;
+  height: 72px;
+  background-color: #0c0c0f; 
+  z-index: 1000;
+  padding: 16px;
+
 }
 
 .home {
@@ -44,8 +52,57 @@
   margin-right: 0px;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: #0c0c0f;
+}
+
+.menu__close {
+  cursor: pointer;
+  position: absolute;
+  top: 28px;
+  right: 16px;
+}
+
+.menu__close > svg {
+  font-size: 20px;
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  font-size: 32px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu__link {
+  margin-bottom: 20px;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.menu__btn > svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .link {
     display: none;
+  }
+
+  .menu__btn {
+    display: block;
   }
 }
