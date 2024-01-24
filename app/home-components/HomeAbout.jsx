@@ -18,9 +18,21 @@ function HomeAbout() {
 
         <div className={styles.subtitle}>Highlights</div>
         <div className={styles.highlights__container}>
-          <Highlight title={"Performances"} image={Performances} />
+          <Highlight
+            title={"Performances"}
+            image={Performances}
+            link={
+              "https://www.youtube.com/playlist?list=PL8E0MlvDb3X95JTu73iB77tHzj8ZYc22D"
+            }
+          />
           <Highlight title={"Choreography Projects"} image={CP} />
-          <Highlight title={"Battles"} image={Battles} />
+          <Highlight
+            title={"Battles"}
+            image={Battles}
+            link={
+              "https://www.youtube.com/playlist?list=PL8E0MlvDb3X9NgEni7BwXCBrB9NOsHQar"
+            }
+          />
         </div>
       </div>
     </div>

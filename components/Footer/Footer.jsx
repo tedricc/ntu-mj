@@ -41,7 +41,7 @@ function Footer() {
             <div className={styles.line}>|</div>
 
             <Link
-              href="https://www.youtube.com/@ntumj4913"
+              href="https://www.youtube.com/@NTUMJArch"
               className={styles.link}
             >
               Youtube
