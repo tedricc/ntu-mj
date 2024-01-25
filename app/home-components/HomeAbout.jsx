@@ -1,8 +1,8 @@
 import styles from "@/app/home-components/HomeAbout.module.css";
 import Highlight from "@/components/ui/Highlight/Highlight";
-import Performances from "@/public/home-banner.jpg";
-import CP from "@/public/home-poster.jpg";
-import Battles from "@/public/meow.jpg";
+import Performances from "@/public/home assets/performances.jpg";
+import ClassVideos from "@/public/home assets/class-videos.jpg";
+import Battles from "@/public/home assets/battles.jpg";
 
 function HomeAbout() {
   return (
@@ -10,10 +10,11 @@ function HomeAbout() {
       <div className="row">
         <div className={styles.title}>Welcome to MJ</div>
         <div className={styles.text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rem
-          sequi totam atque amet exercitationem, in expedita doloribus ipsum,
-          quia perspiciatis quam, soluta id tenetur dolore obcaecati reiciendis.
-          Animi, aliquid.
+          More than a universal language, dance has been a force that transcends
+          time and space, and generations and backgrounds to become what it is
+          today. As we try to capture the nuances of our dance and weave threads
+          of the past and present, we strive for bigger breakthroughs and a
+          future MJ dancers can share.
         </div>
 
         <div className={styles.subtitle}>Highlights</div>
@@ -25,7 +26,11 @@ function HomeAbout() {
               "https://www.youtube.com/playlist?list=PL8E0MlvDb3X95JTu73iB77tHzj8ZYc22D"
             }
           />
-          <Highlight title={"Choreography Projects"} image={CP} />
+          <Highlight
+            title={"Class Videos"}
+            image={ClassVideos}
+            link={"https://t.me/+ON4fA4m7NH5iMTg1"}
+          />
           <Highlight
             title={"Battles"}
             image={Battles}

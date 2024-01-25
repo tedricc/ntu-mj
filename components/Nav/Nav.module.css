@@ -7,10 +7,9 @@
   align-items: center;
   justify-content: space-between;
   height: 72px;
-  background-color: #0c0c0f; 
+  background-color: #0c0c0f;
   z-index: 1000;
   padding: 16px;
-
 }
 
 .home {
@@ -60,6 +59,14 @@
   bottom: 0;
   z-index: 1000;
   background-color: #0c0c0f;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 300ms ease;
+}
+
+.menu__active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .menu__close {

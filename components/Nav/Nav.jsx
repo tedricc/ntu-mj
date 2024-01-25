@@ -5,7 +5,6 @@ import Image from "next/image";
 import Logo from "@/public/ntu-mj-icon.png";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 function Nav() {
@@ -23,43 +22,41 @@ function Nav() {
 
   return (
     <>
-      {menu && (
-        <>
-          <div className={styles.menu}>
-            <div className={styles.menu__close}>
-              <FaTimes onClick={handleMenu} />
-            </div>
-
-            <div className={styles.menu__links}>
-              <Link href="/" className={styles.menu__link} onClick={handleMenu}>
-                Home
-              </Link>
-              <Link
-                href="/about"
-                className={styles.menu__link}
-                onClick={handleMenu}
-              >
-                About
-              </Link>
-              <Link
-                href="/events"
-                className={styles.menu__link}
-                onClick={handleMenu}
-              >
-                Events
-              </Link>
-              <Link
-                href="/alumni"
-                className={styles.menu__link}
-                onClick={handleMenu}
-              >
-                Alumni
-              </Link>
-            </div>
+      <>
+        <div
+          className={
+            !menu ? styles.menu : `${styles.menu} ${styles.menu__active}`
+          }
+        >
+          <div className={styles.menu__links}>
+            <Link href="/" className={styles.menu__link} onClick={handleMenu}>
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className={styles.menu__link}
+              onClick={handleMenu}
+            >
+              About
+            </Link>
+            <Link
+              href="/events"
+              className={styles.menu__link}
+              onClick={handleMenu}
+            >
+              DTT 2023
+            </Link>
+            <Link
+              href="/alumni"
+              className={styles.menu__link}
+              onClick={handleMenu}
+            >
+              Alumni
+            </Link>
           </div>
-        </>
-      )}
-      
+        </div>
+      </>
+
       <div className="container">
         <div className="row">
           <div className={styles.nav}>
@@ -87,7 +84,7 @@ function Nav() {
               </Link>
 
               <Link href="/events" className={styles.link}>
-                Events
+                DTT 2023
               </Link>
 
               <Link href="/alumni" className={styles.link}>
